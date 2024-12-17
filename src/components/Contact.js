@@ -2,9 +2,11 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import GmailCopy from './GmailCopy';
+import moment from "moment";
 
 function Contact() {
   const form = useRef();
+  const year = moment().format("YYYY");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -60,8 +62,8 @@ function Contact() {
         </form>
       </div>
 
-      <div className='flex justify-center items-center font-[350] text-[0.6rem] leading-loose sm:text-[1rem]  tm:text-[1rem]'> Copyright © 2023
-        <span className='font-[500]'>&nbsp;Rimsha&nbsp; </span>
+      <div className='flex justify-center items-center font-[350] text-[0.6rem] leading-loose sm:text-[1rem]  tm:text-[1rem]'> Copyright © {year}
+        <span className='font-[500]'>&nbsp;Jetro&nbsp; </span>
 
         All Rights Reserved
 

@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div id='projects' className='sm:pl-[10rem] sm:p-8 p-16 mt-4 sm:mt-0 sm:px-4 sm:py-2'>
         <div>
-            <h1 className='w-72 mb-4 tracking-wider font-semibold text-2xl sm:text-2xl md:text-2xl lg:text-2.5xl sm:mb-4 sm:w-full'>Few Projects</h1>
+            <h1 className='w-72 mb-4 tracking-wider font-semibold text-2xl sm:text-2xl md:text-2xl lg:text-2.5xl sm:mb-4 sm:w-full'>Projects</h1>
         </div>
 
         {data.ProjectsData.map((project) => {
@@ -15,9 +15,10 @@ function Projects() {
                 name={project.name}
                 live={project.live}
                 source={project.source}
-                desc={project.description}/>)
+                desc={project.description}
+                enableDemo={project.enableDemo}
+                enableSource={project.enableSource}/>)
         })}
-       
     </div>
   );
 }
