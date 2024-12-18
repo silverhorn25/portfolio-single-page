@@ -11,7 +11,7 @@ function Experience({ org, title, date, description }) {
           </div>
           <div className='flex relative mt-[5px] flex-col sm:ml-[-29px]  '>
             <p className="p-[1px] border-black dark:border-white rounded-50 bg-transparent ">
-              <div className='m-1 bg-[#ec6e59] p-[7px] rounded-full'></div>
+              <div className='m-1 bg-[#219ebc] p-[7px] rounded-full'></div>
             </p>
             <div className='absolute top-[29px] bottom-[-26px] left-[12px] sm:top-[26px] border-dotted border-l-2 border-black dark:border-white '></div>
           </div>

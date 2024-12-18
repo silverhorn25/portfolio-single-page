@@ -6,7 +6,7 @@ function Projects({ image, name, live, source, desc, enableDemo, enableSource })
     <div className="flex flex-col-reverse gap-20 mt-12 sm:flex-row sm:items-center sm:justify-between">
       <div className="w-full sm:w-1/2">
         <div className="flex flex-col gap-2">
-          <h1 className="text-xl font-bold text-[#ec6e59]">{name}</h1>
+          <h1 className="text-xl font-bold text-[#219ebc]">{name}</h1>
           <p className="sm:text-justify font-light  leading-loose text-sm sm:text-base">
             {desc}
           </p>
@@ -16,7 +16,7 @@ function Projects({ image, name, live, source, desc, enableDemo, enableSource })
                 href={live}
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center bg-[#ec6e59] text-white px-4 py-2 rounded-md text-sm"
+                className="flex items-center bg-[#219ebc] text-white px-4 py-2 rounded-md text-sm"
               >
                 Demo
               </a>

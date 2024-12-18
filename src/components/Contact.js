@@ -57,7 +57,7 @@ function Contact() {
 
           <div className='flex justify-start mt-5 mb-8'>
             <button type='submit'
-              className='px-[1.6em] py-[.8em] bg-[#ec6e59] coursor-pointer rounded-[4px] flex justify-start items-center gap-1 border-[#ec6e59] border-2 lg:text-[.8rem] sm:text-[.8rem]'>Send</button>
+              className='px-[1.6em] py-[.8em] bg-[#219ebc] coursor-pointer rounded-[4px] flex justify-start items-center gap-1 border-[#219ebc] border-2 lg:text-[.8rem] sm:text-[.8rem]'>Send</button>
           </div>
         </form>
       </div>

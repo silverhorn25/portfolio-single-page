@@ -9,6 +9,8 @@ import Vanlife from "./../assets/portfolioImages/vanlife.png"
 import PortfolioOne from "./../assets/portfolioImages/p1.jpg";
 import Headquarter from "./../assets/portfolioImages/h1.jpg";
 import Terminal from "./../assets/portfolioImages/t2.jpg";
+import ProtfolioTwo from "./../assets/portfolioImages/p2.jpg";
+import Advertisement from "./../assets/portfolioImages/advertisement.jpg";
 
 // in progress projects
 
@@ -17,26 +19,26 @@ import landingPage from './../assets/portfolioImages/url.jpg'
 
 const ProjectsData = [
   {
-    id: "vanlife",
+    id: "protfolio",
     img: PortfolioOne,
     name: "First Portfolio Design",
     stack: ["< RESTful API />", "< Bootstrap v5 />", "< React.js />"],
     live: "",
     source: "https://github.com/silverhorn25/portfolio.git",
     description:
-      "SPA (Single Page Application) to rent a van for a road trip with 10+ routes. I have built it with ReactJS, React Router 6, miragejs and CSS for styling. It has a responsive design and navigation.",
+      "The project is a Multiple Page Application (MPA) designed as a portfolio website, featuring multiple landing pages and structured across three distinct routes. It is built using modern web technologies, including React and TypeScript for its component-based architecture and type safety. The application’s styling is implemented with Tailwind CSS, enabling rapid and responsive design customization.",
     enableDemo: false,
     enableSource: true,
   },
   {
-    id: "fyp",
+    id: "headquarter",
     img: Headquarter,
     name: "Alliance POS Headquarter",
     stack: ["< RESTful API />", "< Bootstrap v5 />", "< React.js />"],
     live: "",
     source: "",
     description:
-      "A cross-platform app that connects local service providers with customers. As a full stack developer, I contributed to the development of the app using Flutter, Node.js, Express.js, Next.js and MongoDB. I also worked on the design of the app using Figma. The mobile app is currently in the testing phase and will be launched soon. Web app's frontend is also completed.",
+      "As a full-stack developer, I played a key role in the development of the application, where I utilized Java Spring Boot for the backend to build a robust and scalable server-side architecture. On the front end, I worked extensively with React and TypeScript, ensuring a dynamic, user-friendly, and type-safe experience. To enhance the UI, I integrated Ant Design, leveraging its rich set of pre-built, responsive components to create a polished, modern interface. My contributions included both designing and implementing features across the full stack, ensuring seamless integration between the backend and frontend for optimal performance and usability.",
     enableDemo: false,
     enableSource: false,
   },
@@ -52,38 +54,42 @@ const ProjectsData = [
   // },
 
   {
-    id: "space-tourism",
+    id: "terminal",
     img: Terminal,
     name: "Alliance POS Terminal",
     stack: ["< React.js />", "< CSS3 />"],
     live: "",
     source: "",
     description:
-      "Multi-page space tourism website provides relevent information for users. It has a responsive design and navigation. A large and complex project that required me to plan ahead and break down the work into smaller chunks. I used React.js to build the website and CSS3 for styling.",
+      "I also contributed to the development of a desktop application built with Electron, where I focused on creating a cross-platform experience with a smooth user interface using Ant Design. For local database management, I integrated SQLite, ensuring efficient data storage and retrieval. Additionally, I implemented Node Thermal Printer to handle receipt printing, optimizing the printing process for thermal printers and ensuring seamless integration with the rest of the desktop application. ",
     enableDemo: false,
     enableSource: false,
   },
-  // {
-  //   id: "cloud-storage",
-  //   img: AWS,
-  //   name: "Cloud Storage with AWS Simple Storage Service",
-  //   stack: ["< AWS S3 /> " , "< JavaScript /> " , "< Express.js />"],
-  //   live: "",
-  //   source: "https://github.com/rimshub/cloud-storage-s3",
-  //   description:  
-  //       "This challenge from frontendmentor tested my skills to create dropdown navigation menus, a common pattern on larger sites. It also has some nice basic layout challenge",
-  // },
+  {
+    id: "portfolio-two",
+    img: ProtfolioTwo,
+    name: "Portfolio Reverse Design",
+    stack: ["< AWS S3 /> " , "< JavaScript /> " , "< Express.js />"],
+    live: "",
+    source: "https://github.com/silverhorn25/portfolio-single-page",
+    description:  
+        "In this project, I took inspiration from an existing portfolio design and reverse-engineered it to suit my personal style and preferences. I implemented a dark mode feature to enhance user experience and accessibility. The portfolio is designed as a single-page application, using React for dynamic content rendering and Tailwind CSS for responsive and efficient styling. The result is a sleek, modern portfolio that showcases my skills and projects in a visually appealing and user-friendly way.",
+    enableDemo: false,
+    enableSource: true,
+  },
 
-  // {
-  //   id: "advice-generator",
-  //   img: Advice,
-  //   name: "Advice Generator App",
-  //   stack: ["< HTML5 />", "< CSS3 />", "< JavaScript />"],
-  //   live: "https://rimshub.github.io/javascript-advice-generator/",
-  //   source: "https://github.com/rimshub/javascript-advice-generator",
-  //   description:
-  //     "This advice generator app using the Advice Slip API. A small and fun app to practice JavaScript and mobile first workflow and CSS3. It has a responsive design and navigation.",
-  // },
+  {
+    id: "advertisement",
+    img: Advertisement,
+    name: "Advertisement Website",
+    stack: ["< HTML5 />", "< CSS3 />", "< JavaScript />"],
+    live: "",
+    source: "https://github.com/silverhorn25/advertisement",
+    description:
+      "This project is an advertisement website focused on promoting cosmetic products. While the project is currently on hold, the site is being developed using React with TypeScript for dynamic functionality and Tailwind CSS for efficient, responsive styling. The goal of the website is to create an engaging, visually appealing platform that highlights the brand and its offerings. Once completed, it will feature user-friendly navigation, product showcases, and responsive design for an optimal viewing experience across devices.",
+    enableDemo: false,
+    enableSource: true,
+  },
 
 
   // {
