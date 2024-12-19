@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-single-page/static/css/main.6a93e116.css",
+    "main.js": "/portfolio-single-page/static/js/main.930c5539.js",
+    "static/media/servista.png": "/portfolio-single-page/static/media/servista.be31d68020a10e4e893e.png",
+    "static/media/vanlife.png": "/portfolio-single-page/static/media/vanlife.f23127dc67e9d99c6644.png",
+    "static/media/p2.jpg": "/portfolio-single-page/static/media/p2.491086d075a1daeb0746.jpg",
+    "static/media/h1.jpg": "/portfolio-single-page/static/media/h1.0e4f760eaed867eaf221.jpg",
+    "static/media/t2.jpg": "/portfolio-single-page/static/media/t2.878bd4247c71dc5bac2f.jpg",
+    "static/media/p1.jpg": "/portfolio-single-page/static/media/p1.f1f862b732b080b9a0a3.jpg",
+    "static/media/spacetourism.jpg": "/portfolio-single-page/static/media/spacetourism.4a331c08928df5caf584.jpg",
+    "static/media/advertisement.jpg": "/portfolio-single-page/static/media/advertisement.84d3e3b34f682143191a.jpg",
+    "static/media/url.jpg": "/portfolio-single-page/static/media/url.0708cbd5cf568f77d9f7.jpg",
+    "static/media/restcountries.jpg": "/portfolio-single-page/static/media/restcountries.bb92d8fafe0ed48d3167.jpg",
+    "static/media/intropage.jpg": "/portfolio-single-page/static/media/intropage.18702cdc49b53619778b.jpg",
+    "static/media/todo.jpg": "/portfolio-single-page/static/media/todo.b2dc38eabdbbf33a6c7f.jpg",
+    "static/media/me.jpg": "/portfolio-single-page/static/media/me.fa419fbbc5d2221a53f3.jpg",
+    "static/media/advice.jpg": "/portfolio-single-page/static/media/advice.10a460b7858f4755b667.jpg",
+    "index.html": "/portfolio-single-page/index.html",
+    "main.6a93e116.css.map": "/portfolio-single-page/static/css/main.6a93e116.css.map",
+    "main.930c5539.js.map": "/portfolio-single-page/static/js/main.930c5539.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a93e116.css",
+    "static/js/main.930c5539.js"
+  ]
+}
